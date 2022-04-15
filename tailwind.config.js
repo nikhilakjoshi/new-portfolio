@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        xxs: "11px",
+        xxs: "calc(0.75rem - 0.062rem)",
       },
     },
   },

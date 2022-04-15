@@ -1,11 +1,12 @@
 import React from "react";
 import SideBar from "./SideBar";
 
-const Content = () => {
+const Content = ({ children }) => {
   return (
     <div className="contentRoot text-sm text-slate-600">
-      <div className="container mx-auto p-4">
+      <div className="container mx-auto px-4 flex">
         <SideBar />
+        <div className="grow">{children}</div>
       </div>
     </div>
   );
