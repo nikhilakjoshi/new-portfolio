@@ -11,7 +11,8 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <Link href="/">
             <button className="font-bold text-slate-600 tracking-wide py-1 px-2 hover:bg-slate-100 border border-slate-100 hover:border-slate-300 rounded-sm transition-all outline-none">
-              BLUEBUCKDESIGNS
+              <span className="text-teal-500">B</span>lue<span className="text-teal-500">B</span>uck
+              <span className="text-teal-500">D</span>esigns
             </button>
           </Link>
           <div className="flex items-center gap-6">

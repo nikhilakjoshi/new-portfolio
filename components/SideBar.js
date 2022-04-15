@@ -13,9 +13,9 @@ import { useRouter } from "next/router";
 const Data = [
   {
     id: 0,
-    title: "Introduction",
+    title: "Home",
     Icon: Star,
-    href: "/introduction",
+    href: "/",
   },
   {
     id: 1,
@@ -84,7 +84,7 @@ export const ItemComponent = ({ title, Icon, href }) => {
     >
       <div
         className={`itemContainer group hover:bg-slate-100 cursor-pointer text-slate-800 hover:text-slate-800 px-1 py-4 border-l-2 border-transparent transition-all ${
-          asPath == href ? "opacity-100 border-l-teal-300 bg-slate-100" : "opacity-60 hover:opacity-100"
+          asPath == href ? "opacity-100 border-l-teal-300 bg-slate-100" : "opacity-30 hover:opacity-100"
         }`}
       >
         <div className="flex flex-col items-center gap-1">
